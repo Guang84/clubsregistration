@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Document</title>
+    <style>
+        body h1 {
+            color: rgb(31, 9, 9);
+            font-size: 30px;
+        }
+        .num {
+            color: #181100;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.php" method="post">
+        <h1>CLUB REGISTRATION FORM</h1>
+        <label>NAME</label>
+        <input type="text" class="num" placeholder="Enter your name" required><br><br>
+        <label>CLUB&nbsp;</label>
+        <select font style="width: 100px;">
+            <option>select</option>
+            <option>IT</option>
+            <option>Music</option> <!-- Removed extra characters -->
+            <option>Dance</option>
+            <option>Nature</option>
+            <option>NSS</option>
+            <option>Women Cell</option>
+            <option>Electoral Literacy</option>
+            <option>AICUF</option>
+            <option>JesusYouth</option>
+        </select><br><br>
+        <label>AGE&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" class="num" placeholder="Enter your age" required><br><br>
+        <label>GENDER</label>
+        <select>
+            <option>select</option>
+            <option>Female</option>
+            <option>Male</option>
+        </select><br><br>
+        <label>ADDRESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" class="num" placeholder="Enter your Address" required><br><br>
+        <label>DEPARTMENT</label>
+        <input type="text" class="num" required><br><br>
+        <label>ROLLNO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" class="num" required><br><br>
+        <label>E-Mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" required>
+        <br><br>
+        <label>Phone Number</label>
+        <input type="number" class="num" placeholder="Enter your number" required><br><br>
+        <label font style="color: rgb(85, 82, 241);">Reason for joining the club</label>
+        <textarea class="num" placeholder="Type your answer here" font style="width: 300px; height: 100px;" required></textarea>
+        <label font style="color: rgb(85, 82, 241);">Expectations from the club &nbsp;</label>
+        <textarea class="num" placeholder="Type your answer here" font style="width: 300px; height: 100px;" required></textarea>
+        <label font style="color: rgb(85, 82, 241);">Your contribution to the club</label>
+        <textarea class="num" placeholder="Type your answer here" font style="width: 300px; height: 100px;" required></textarea>
+        <br>
+        <button type="submit" font style="width: 90px;">submit</button>
+
+    </form>
+</body>
+</html>

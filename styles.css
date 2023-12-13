@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/transparent-vivid-autumn-leaves_23-2148239689.jpg?w=996&t=st=1702483506~exp=1702484106~hmac=cb4c129be56af33f6a4b468b4e15192ca1a08bdc1adb36d0335f077084816f02');
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    flex: 1px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ae62c1;
+    color: #210101;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.tab:hover {
+    background-color: #217dbb;
+}
+
+.forms {
+    padding: 20px;
+}
+
+form {
+    display: none;
+}
+
+form.active {
+    display: block;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
